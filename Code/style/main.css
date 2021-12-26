@@ -1,0 +1,134 @@
+/*html{
+    cursor: url("/style/cursor/curs1.cur"), default;
+}*/
+body{
+    background-color: #F7F0F0;/*EDEDF7*/
+    color:#484349;
+    font-family: 'Rubik_Regular';
+    /*cursor: url("/style/cursor/curs1.cur"), default;*/
+}
+a{
+    text-decoration: none;
+    color:#484349;
+}
+.arabic_text{
+    font-family: 'NeoSansArabic_reg';
+}
+.tdNav{
+    font-size: 16pt;
+    padding-left: 0.5rem;
+    color: transparent;
+}.tdNav:not(hover){
+    transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+}
+
+main{
+    font-size: xx-small;
+    color:#F7F0F0;
+    margin: 1rem 1rem 1rem 7rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background: #484349;
+    top:0;
+    left: 0;
+}main:not(hover){
+    transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+}
+
+.navDiv{
+    /*cursor: url("/style/cursor/curs2.cur"), default;*/
+    padding:0.5rem 0rem 0.5rem 1rem ;
+    background-color:transparent;
+    color:#F7F0F0;
+    fill:#F7F0F0;
+}.navDiv:hover{
+    background-color:rgba(24, 169, 152, 0.2);
+    color:#d2dee6;
+    fill:#d2dee6;
+    transition: ease-in-out 0.15s;
+    padding-left: 1.1rem;
+    border-left: solid #18A999 10px ;
+}.navDiv:not(:hover){transition: ease-in-out 0.15s;}
+
+
+
+#navleft{
+    /*cursor: url("/style/cursor/curs2.cur");*/
+    margin: 1rem 0rem 0rem 1rem;
+    border-radius: 20px;
+    padding: 5rem 0rem 15rem 0rem;
+    top:0;
+    left: 0;
+    color:#F7F0F0;
+    fill:#F7F0F0;
+    background: #484349;
+    height: 15rem;
+    width: 5.3rem;
+    position: fixed;
+    z-index: 1;
+
+}#navleft:hover{
+    opacity: 100%;
+    width: 12rem;
+    transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+
+
+}#navleft:not(hover){
+    transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+}
+
+#navleft:hover .tdNav{ 
+
+    color: #d2dee6;
+    fill:#d2dee6;
+    transition: cubic-bezier(1, 0, 0, 1) 0.7s;
+}
+#navleft:hover + main{
+    opacity: 80%;
+    filter: blur(4px);
+    transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                      */
+
+
+
+
+
+@font-face {
+    font-family: "Rubik_Light";
+    src: url("./local_fonts/Rubik-Light.ttf");
+}
+@font-face {
+    font-family: "Rubik_Medium";
+    src: url("./local_fonts/Rubik-Medium.ttf");
+}
+@font-face {
+    font-family: "Rubik_Regular";
+    src: url("./local_fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansArabic_reg";
+    src: url("./local_fonts/NeoSansArabic.ttf");
+}
+@font-face {
+    font-family: "NeoSansArabic_Light";
+    src: url("./local_fonts/NeoSansArabicLight.ttf");
+}
