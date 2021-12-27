@@ -15,7 +15,7 @@ a{
     font-family: 'NeoSansArabic_reg';
 }
 .tdNav{
-    font-size: 16pt;
+    font-size: 14pt;
     padding-left: 0.5rem;
     color: transparent;
 }.tdNav:not(hover){
@@ -25,7 +25,7 @@ a{
 main{
     font-size: xx-small;
     color:#F7F0F0;
-    margin: 1rem 1rem 1rem 7rem;
+    margin: 1rem 1rem 1rem 4.7rem;
     padding: 1rem;
     border-radius: 20px;
     background: #484349;
@@ -37,7 +37,7 @@ main{
 
 .navDiv{
     /*cursor: url("/style/cursor/curs2.cur"), default;*/
-    padding:0.5rem 0rem 0.5rem 1rem ;
+    padding:0.5rem 0.7rem 0.5rem 0.7rem ;
     background-color:transparent;
     color:#F7F0F0;
     fill:#F7F0F0;
@@ -45,30 +45,30 @@ main{
     background-color:rgba(24, 169, 152, 0.2);
     color:#d2dee6;
     fill:#d2dee6;
-    transition: ease-in-out 0.15s;
-    padding-left: 1.1rem;
-    border-left: solid #18A999 10px ;
-}.navDiv:not(:hover){transition: ease-in-out 0.15s;}
+    transition: ease-in-out 0.2s;
+    padding-left: 0.8rem;
+    border-left: solid #18A999 7px ;
+}.navDiv:not(:hover){transition: ease-in-out 0.2s;}
 
 
 
 #navleft{
     /*cursor: url("/style/cursor/curs2.cur");*/
-    margin: 1rem 0rem 0rem 1rem;
-    border-radius: 20px;
+    margin: 0rem 0rem 0rem 0rem;
+    border-radius: 0px;
     padding: 5rem 0rem 15rem 0rem;
     top:0;
     left: 0;
     color:#F7F0F0;
     fill:#F7F0F0;
     background: #484349;
-    height: 15rem;
-    width: 5.3rem;
+    height: 100vh ;/*100%;*/
+    width: 3.7rem;
     position: fixed;
     z-index: 1;
 
 }#navleft:hover{
-    opacity: 100%;
+    opacity: 95%;
     width: 12rem;
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
 
@@ -89,7 +89,6 @@ main{
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
     padding-left: 2rem;
 }
-
 
 
 
