@@ -15,9 +15,9 @@ a{
     font-family: 'NeoSansArabic_reg';
 }
 .tdNav{
-    font-size: 14pt;
+    font-size: 10pt;
     padding-left: 0.5rem;
-    color: transparent;
+    color: #F7F0F0;
 }.tdNav:not(hover){
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
 }
@@ -25,7 +25,7 @@ a{
 main{
     font-size: xx-small;
     color:#F7F0F0;
-    margin: 1rem 1rem 1rem 4.7rem;
+    margin: 0.7rem 0.7rem 0.7rem 0.7rem;
     padding: 1rem;
     border-radius: 20px;
     background: #484349;
@@ -37,15 +37,15 @@ main{
 
 .navDiv{
     /*cursor: url("/style/cursor/curs2.cur"), default;*/
-    padding:0.5rem 0.7rem 0.5rem 0.7rem ;
+    padding:0.5rem 0.5rem 0.5rem 1rem ;
     background-color:transparent;
     color:#F7F0F0;
     fill:#F7F0F0;
     border-left: solid #18A999 0px ;
 }.navDiv:hover{
     background-color:rgba(24, 169, 152, 0.2);
-    color:#d2dee6;
-    fill:#d2dee6;
+    color:#F7F0F0;
+    fill:#F7F0F0;
     transition: ease-in-out 0.2s;
     padding-left: 0.8rem;
     border-left: solid #18A999 7px ;
@@ -64,22 +64,46 @@ main{
     fill:#F7F0F0;
     background: #484349;
     height: 100vh ;/*100%;*/
-    width: 3.7rem;
+    width: 4rem;
     position: fixed;
     z-index: 1;
-
+    display: none;
 }#navleft:hover{
     opacity: 95%;
     width: 12rem;
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
-
-
 }#navleft:not(hover){
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
 }
+@media only screen and (min-width: 600px){
+    #navleft{
+        border-radius: 20px;
+        margin: 1rem 1rem 1rem 1rem;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .tdNav{
+        color: transparent;
+    }
+    #navbar_id{
+        display: none;
+    }
+    main{
+        margin: 1rem 1rem 1rem 6rem;
+    }
+    #navContent{
+        display: none;
+    }
+    .collapse{
+        display: none;
+    }
+}
+
 
 #navleft:hover .tdNav{ 
-
     color: #d2dee6;
     fill:#d2dee6;
     transition: cubic-bezier(1, 0, 0, 1) 0.7s;
@@ -90,6 +114,43 @@ main{
     transition: cubic-bezier(1, 0, 0, 1) 0.6s;
     padding-left: 2rem;
 }
+
+
+
+#divContainerNav{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #F7F0F0;
+    display: flex;
+}
+#navContent{
+    margin: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 20px;
+    padding: 1rem 0rem 1rem 0rem;
+    color: #F7F0F0;
+    background-color: #484349;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
